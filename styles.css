@@ -1,0 +1,13 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px;
+    font-size: 32px;
+}
