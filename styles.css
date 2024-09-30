@@ -143,6 +143,7 @@ a.decor {
     display: flex;
     background-color: rgb(65, 65, 65);
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .kofi {
