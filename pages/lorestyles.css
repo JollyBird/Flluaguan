@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(188, 190, 219);
 }
 
 .header {
@@ -33,4 +33,91 @@ body {
 a.decor {
     text-decoration: none;
     color: white;
+}
+
+.sidebar {
+    display: flex;
+    background-color: rgb(165, 165, 165);
+    max-width: 300px;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-right: 12px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.listtext {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.info {
+    display: flex;
+}
+
+.lore {
+    display: flex;
+    background-color: rgb(207, 226, 243);
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mainheader {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.infoheader {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    justify-content: center;
+    padding: 20px;
+}
+
+.subinfo {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.kofi {
+    display: flex;
+    padding: 30px;
+    color: white;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.bold {
+    font-weight: bold;
 }
