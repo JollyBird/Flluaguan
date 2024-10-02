@@ -49,12 +49,6 @@ a.decor {
     box-sizing: border-box;
 }
 
-ul {
-    padding: 0px;
-    margin: 0px;
-    max-width: fit-content;
-}
-
 .list {
     display: flex;
     flex-direction: column;
@@ -116,8 +110,7 @@ ul {
 .oiclist {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .sigils {
