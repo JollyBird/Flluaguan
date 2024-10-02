@@ -3,10 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(188, 190, 219);
+    min-width: fit-content;
 }
 
 p {
     font-size: 18px;
+    margin: 0;
 }
 
 .header {
@@ -22,7 +24,7 @@ p {
     font-size: 40px;
     color: #ffffff;
     gap: 20px;
-    margin-left: 10px;
+    padding-left: 10px;
     font-weight: bold;
 }
 
@@ -31,7 +33,7 @@ p {
     align-items: center;
     gap: 50px;
     font-size: 30px;
-    margin-right: 10px;
+    padding-right: 10px;
 }
 
 a.decor {
@@ -42,10 +44,20 @@ a.decor {
 .sidebar {
     display: flex;
     background-color: rgb(165, 165, 165);
-    max-width: 300px;
     justify-content: center;
     flex-shrink: 0;
     padding-right: 12px;
+    max-width: fit-content;
+}
+
+ul {
+    margin: 0;
+    max-width: fit-content;
+}
+
+li {
+    margin: 0;
+    max-width: fit-content;
 }
 
 .list {
@@ -60,6 +72,7 @@ a.decor {
 
 .info {
     display: flex;
+    margin: 0;
 }
 
 .lore {
@@ -77,6 +90,7 @@ a.decor {
     text-decoration: underline;
     font-size: 32px;
     padding-bottom: 20px;
+    display: flex;
 }
 
 .infoheader {
@@ -92,6 +106,7 @@ a.decor {
     font-weight: bold;
     font-size: 18px;
     padding-top: 35px;
+    display: flex;
 }
 
 .oic {
@@ -129,6 +144,7 @@ a.decor {
     font-size: 18px;
     padding-top: 35px;
     padding-left: 50px;
+    display: flex;
 }
 
 
