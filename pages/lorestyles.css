@@ -54,7 +54,6 @@ a.decor {
 }
 
 .listtext {
-    color: white;
     font-size: 20px;
     padding-bottom: 20px;
 }
@@ -94,6 +93,44 @@ a.decor {
     font-size: 18px;
     padding-top: 35px;
 }
+
+.oic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.oiclist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.sigils {
+    display: flex;
+    flex-direction: column;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+}
+
+.elementtwo {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sublist {
+    font-size: 18px;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
 
 
 
