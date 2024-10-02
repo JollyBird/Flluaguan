@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(188, 190, 219);
-    min-width: fit-content;
 }
 
 p {
@@ -16,6 +15,7 @@ p {
     background-color: rgb(22, 22, 22);
     justify-content: space-between;
     color: white;
+    box-sizing: border-box;
 }
 
 .left {
@@ -45,24 +45,20 @@ a.decor {
     display: flex;
     background-color: rgb(165, 165, 165);
     justify-content: center;
-    flex-shrink: 0;
-    padding-right: 12px;
-    max-width: fit-content;
+    padding: 12px;
+    box-sizing: border-box;
 }
 
 ul {
-    margin: 0;
-    max-width: fit-content;
-}
-
-li {
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     max-width: fit-content;
 }
 
 .list {
     display: flex;
     flex-direction: column;
+    max-width: fit-content;
 }
 
 .listtext {
@@ -72,15 +68,15 @@ li {
 
 .info {
     display: flex;
-    margin: 0;
+    box-sizing: border-box;
 }
 
 .lore {
     display: flex;
     background-color: rgb(207, 226, 243);
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    box-sizing: border-box;
+    padding: 30px;
 }
 
 .mainheader {
@@ -111,8 +107,8 @@ li {
 
 .oic {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
