@@ -6,8 +6,12 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 25px;
     margin: 0;
+}
+
+li {
+    font-size: 25px;
 }
 
 .header {
@@ -78,7 +82,7 @@ a.decor {
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    font-size: 32px;
+    font-size: 35px;
     padding-bottom: 20px;
     display: flex;
 }
@@ -86,7 +90,7 @@ a.decor {
 .infoheader {
     display: flex;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     font-style: italic;
     justify-content: center;
     padding: 20px;
@@ -94,7 +98,7 @@ a.decor {
 
 .subinfo {
     font-weight: bold;
-    font-size: 23px;
+    font-size: 30px;
     padding-top: 35px;
     display: flex;
     flex-shrink: 0;
@@ -131,7 +135,7 @@ a.decor {
 }
 
 .sublist {
-    font-size: 18px;
+    font-size: 30px;
     padding-top: 35px;
     padding-left: 50px;
     display: flex;
