@@ -6,12 +6,12 @@ body {
 }
 
 p {
-    font-size: 25px;
+    font-size: 1em;
     margin: 0;
 }
 
 li {
-    font-size: 25px;
+    font-size: 1em;
 }
 
 .header {
@@ -60,7 +60,7 @@ a.decor {
 }
 
 .listtext {
-    font-size: 20px;
+    font-size: 1.2em;
     padding-bottom: 20px;
 }
 
@@ -78,11 +78,16 @@ a.decor {
 }
 
 .mainheader {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #4d5973 , rgb(207, 226, 243));
     font-weight: bold;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-decoration: underline;
-    font-size: 35px;
+    font-size: 2.5em;
     padding-bottom: 20px;
     display: flex;
 }
@@ -90,7 +95,7 @@ a.decor {
 .infoheader {
     display: flex;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2em;
     font-style: italic;
     justify-content: center;
     padding: 20px;
@@ -98,7 +103,7 @@ a.decor {
 
 .subinfo {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2em;
     padding-top: 35px;
     display: flex;
     flex-shrink: 0;
@@ -135,7 +140,7 @@ a.decor {
 }
 
 .sublist {
-    font-size: 30px;
+    font-size: 1em;
     padding-top: 35px;
     padding-left: 50px;
     display: flex;
